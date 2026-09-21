@@ -35,6 +35,8 @@ def main():
 
     model = BriaRMBG()
     weight_path = os.path.join(model_dir, "model.safetensors")
+    # 记得自己去RMBG1.4下载这个文件到rmbg_model哦，太大了没上传到这个仓库
+    # 算了我人这么好，贴上链接吧，就是不知道你用的时候还能打开不 https://hf-mirror.com/briaai/RMBG-1.4/tree/main
 
     if not os.path.exists(weight_path):
         raise FileNotFoundError(f"找不到权重文件：{weight_path}")
