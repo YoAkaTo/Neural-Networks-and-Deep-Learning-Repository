@@ -1,0 +1,19 @@
+# python缓存
+__pycache__/
+*.pyc
+
+# pycharm
+.idea/
+*.iml
+*.ipynb
+
+# 视频图片
+*.png
+*.jpg
+*.mp4
+
+# anaconda
+anaconda_projects/
+
+# ** 权重文件，需自行下载
+/#ch02/rmbg_model/model.safetensors
